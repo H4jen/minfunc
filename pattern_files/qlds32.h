@@ -1,0 +1,25 @@
+// qlds32.h
+#define COM_PRINTF              0x08066780
+#define CMD_ADDCOMMAND          0x08065FC0
+#define CMD_ARGS                0x08065CE0
+#define CMD_ARGV                0x08065C80
+#define CMD_ARGC                0x08065C70  
+#define CMD_ARGSFROM            0x08065D70
+#define CMD_TOKENIZESTRING      0x08065E50
+#define CMD_EXECUTESTRING       0x08066110
+#define CBUF_EXECUTETEXT        0x08066340
+#define CVAR_FINDVAR            0x0806BA00
+#define CVAR_GET                0x0806C450 
+#define CVAR_GETLIMIT           0x0806C040
+#define CVAR_SET2               0x0806BC10
+#define SV_SENDSERVERCOMMAND    0x080853C0
+#define SV_EXECUTECLIENTCOMMAND 0x08081790
+#define SV_SHUTDOWN             0x08085090
+#define SV_CLIENTENTERWORLD     0x080816E0
+#define SV_CLIENTTHINK          0x08081870
+#define SV_SETCONFIGSTRING      0x080837A0
+#define SV_GETCONFIGSTRING      0x080839C0
+#define SV_DROPCLIENT           0x08080440
+#define SV_MAP_F                0x0807E960
+#define SYS_SETMODULEOFFSET     0x0809B020
+#define VA                      0x0807C460

@@ -1,0 +1,5 @@
+// qlds64.h
+#define SV_SETCONFIGSTRING      0x43C3B0
+#define SV_GETCONFIGSTRING      0x43C590
+#define SV_DROPCLIENT           0x439580
+#define SYS_SETMODULEOFFSET     0x4518D0
